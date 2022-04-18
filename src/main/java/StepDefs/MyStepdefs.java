@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class MyStepdefs {
 
     WebDriver driver;
-    @When("Hit Google on your browser")
+    @Then("Hit Google on your browser")
     public void HitGoogleonyourbrowser() throws Throwable
     {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ADMIN\\IdeaProjects\\AutomationExercise\\src\\Driver\\chromedriver.exe");
